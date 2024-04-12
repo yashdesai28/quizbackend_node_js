@@ -1,0 +1,30 @@
+npm install bcrypt
+
+npm install multer
+
+npm install cors  
+
+npm install nodemon --save-dev
+
+npm install nodemon 
+
+npm install mongoose
+
+npm install express 
+
+202006100110086
+
+ regmodel.Users.find({})
+    .populate('roles_id')
+    .then((user) => {
+        console.log(user); 
+      res.json(user);
+    })
+    .catch((err) => {
+      console.error(err);
+      // Handle the error
+      res.status(500).json({ error: 'Internal Server Error' });
+    });
+
+
+email pass = bnri kkoz pnqq npip
